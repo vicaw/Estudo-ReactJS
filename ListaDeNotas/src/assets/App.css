@@ -1,0 +1,7 @@
+.content {
+    display: grid;
+    grid-gap: 0.13em;
+    grid-template:
+      "form ul" 99vh
+      /1fr 3fr;
+  }

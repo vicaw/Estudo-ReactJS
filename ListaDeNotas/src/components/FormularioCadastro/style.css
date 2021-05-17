@@ -1,4 +1,47 @@
-.card-nota{
-    color: red;
-    border: 1px solid;
-}
+.form-cadastro {
+    border-radius: 3px;
+    background: white;
+    padding: 1em;
+    display: grid;
+    grid-gap: 0.3em;
+    grid-template:
+      "fc_input fc_input" 1.7em
+      "fc_textarea fc_textarea" fit-content(0)
+      ". fc_submit" fit-content(0)
+      / 2fr 1fr;
+  }
+  
+  .form-cadastro_input {
+    border-radius: 2px;
+    padding: 4px !important;
+    border: none !important;
+    background: #dcdbdb;
+  }
+  
+  input.form-cadastro_input {
+    grid-area: fc_input;
+  }
+  
+  input.form-cadastro_input:focus-visible,
+  textarea.form-cadastro_input:focus-visible{
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #5b3898
+  }
+  
+  
+  textarea.form-cadastro_input {
+    grid-area: fc_textarea;
+    resize: vertical;
+    min-height: 20em
+  }
+  
+  .form-cadastro_submit {
+    grid-area: fc_submit;
+    background: #5b3898;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-cadastro_submit:hover {
+    background: #9b79d6;
+  }

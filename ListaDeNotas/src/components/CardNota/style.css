@@ -1,4 +1,11 @@
 .card-nota{
-    color: red;
-    border: 1px solid;
+    border-radius: 2px;
+    padding: 4px;
+    padding-left: 20px;
+    background: #dcdbdb;
+    box-shadow: 0px 0px 2px 0px #000000b8;
+}
+
+.card-nota_title{
+    color: #5b3898;
 }
