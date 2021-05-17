@@ -1,0 +1,8 @@
+.lista-notas{
+    padding: 2em;
+    list-style-type: none;
+}
+
+.lista-notas_item{
+    margin-bottom: 1.2em;
+}
