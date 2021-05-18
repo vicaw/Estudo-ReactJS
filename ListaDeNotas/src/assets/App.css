@@ -5,3 +5,20 @@
       "form ul" 99vh
       /1fr 3fr;
   }
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #5b3898;
+}

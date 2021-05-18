@@ -6,6 +6,21 @@
     box-shadow: 0px 0px 2px 0px #000000b8;
 }
 
+.card-nota_header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+}
+
+.card-nota_delete{
+    cursor: pointer;
+    fill: #00000045;
+}
+
+.card-nota_delete:hover{
+    fill: #5b3898;
+}
+
 .card-nota_title{
     color: #5b3898;
 }

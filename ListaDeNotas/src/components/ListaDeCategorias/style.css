@@ -1,0 +1,42 @@
+.lista-categorias{
+    padding: 1em;
+    padding-bottom: 0;
+    display: grid;
+    grid-template:
+        ". lc_input" 2.5em
+        "lc_lista lc_lista" 95% 
+        / 4fr 1fr;
+    height: 98%;
+}
+
+.lista-categorias_input{
+    grid-area: lc_input;
+    border-radius: 2px;
+    padding: 4px !important;
+    border: none !important;
+    background: #dcdbdb;
+    margin-bottom: 1em;
+}
+
+  
+.lista-categorias_input:focus-visible{
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #5b3898
+  }
+
+  .lista-categorias_lista{
+    grid-area: lc_lista;
+    margin-top: 2em;
+    list-style-type: none;
+    display: flex;
+    overflow: auto;
+  }
+
+  .lista-categorias_item{
+      margin: 1em;
+      min-width:30ch;
+      max-width:60ch;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
